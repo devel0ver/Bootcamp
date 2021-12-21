@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#top-navbar{
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#nav-left{
+    width: 550px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-brand,
+.nav-link2, 
+.nav-link{
+    text-decoration: none;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.nav-link2{
+    font-weight: 700;
+    color: white;
+}
+
+.nav-brand{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#nav-right{
+    display: flex;
+}
+
+#nav-toggler{
+    width: 120px;
+    height: 35px;
+    align-self: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #17a2b8;
+    border: 0 solid black;
+}
+#page{
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+/* This holds the left side of the page */
+#leftSide-page{
+    width: 50%;
+    height:fit-content;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+/*  */
+
+/* Starting from here will be the left-top profile  */
+
+.card{
+    width: 100%;
+    border: 4px solid rgba(169, 169, 169, 0.726);
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.top-card{
+    height: 130px;
+    background-color: #17a2b8;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.user-icon{
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    border: 3px solid #cccccc;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+#body-card{
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+h1, h3, p,#body-card a{
+    width: 100%;
+    margin-left: 20px; 
+    margin-bottom: 10px;
+    font-weight:lighter;
+}
+.edit-icon{
+    height: 20px;
+    margin-right: 10px;
+}
+a{
+    color: #085394;
+}
+/* here the profile ends */
+
+/* The Education box starts here */
+#info{
+    width: 100%;
+    height: 200px;
+    border: 4px solid rgba(169, 169, 169, 0.726);
+    margin-top: 20px;
+    overflow: hidden;
+}
+#top-info{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.726);
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.edu{
+    padding: 8px;
+    color: white;
+}
+.columns{
+    padding: 5px;
+}
+.columns h3{
+    font-size: 1.5rem;
+}
+span{
+    color: #707070;
+    font-size: 1.2rem;
+}
+.columns p{
+    font-size: 1.2rem;
+}
+/* Education box ends*/
+
+/* This holds the right side of the page*/
+#rightSide-page{
+    width: 37%;
+    height:fit-content;
+    margin: 0 30px;
+    margin-bottom: 20pxs;
+}
+/*  */
+
+/* Connection requests start here */
+#top-right{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+#top{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-bottom: 3px solid rgba(169, 169, 169, 0.726);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#num-2{
+    width: 35px;
+    height: 35px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    text-align: center;
+}
+.num2{
+    margin-top: 3px;
+    font-size: 1.4rem;
+}
+.requests{
+    width: 200px;
+    font-size: 1.4rem;
+    color: white;
+}
+#bottom{
+    width: 100%;
+    height: 130px;
+}
+#col{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#row{
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30px;
+    margin: 0 12px;
+    font-size: 1.4rem;
+    padding: 3px;
+    align-items: center;
+}
+#row img{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/* Connection requests end here */
+
+/* "Your connections" box start here */
+#bottom-right{
+    width: 100%;
+    height: 380px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#mid, #view-more{
+    width: 350px;
+    height: 70px;
+    border-bottom: 3px solid rgba(169, 169, 169, 0.726);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#mid{
+    height: 250px;
+    display: block;
+}
+#view-more{
+    height: 55px;
+}
+.number{
+    width: 60px;
+    height: 30px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 1.4rem;
+}
+#mid #row{
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#click{
+    width: 100px;
+    margin-right: 25vh;
+    color: rgb(0, 81, 255);
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: white;
+    border: 0px solid white;
+}
+/* "Your connections" box ends here */
