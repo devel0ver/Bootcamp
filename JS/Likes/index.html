@@ -9,14 +9,58 @@
 </head>
 <body>
     <div id="container">
-        <div id="like-box">
-            <div id="userName">Some User</div>
-            <p ><span id="count">3</span> like(s)</p>
-            <button onclick="likeButton()" id="click">like</button>
+        <div id="top-nav">
+            <h1>Network</h1>
         </div>
-        <div id="filler-text">
-            <p>This is some filler text, it can say anything
-                we like</p>
+        <div id="header">
+            <p>Your Feed</p>
+        </div>
+        <div id="page">
+            <div id="leftpage">
+                <div id="profile-box">
+                    <div id="avatar">
+                        <img src="img/user-circle.png" alt="user icon">
+                    </div>
+                    <div id="user">
+                        <a href="#">Add an avatar</a>
+                        <p>James Doe</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right-page">
+                <div class="box">
+                    <div class="like-box">
+                        <div class="userName">Neil M</div>
+                        <p ><span id="count">9</span> like(s)</p>
+                        <button onclick="likeButton()" class="click">like</button>
+                    </div>
+                    <div class="filler-text">
+                        <p>I just set up this new discord bot, let me
+                            know what you all think. <a href="#">link</a> </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="like-box">
+                        <div class="userName">Nichole K</div>
+                        <p ><span id="increase">12</span> like(s)</p>
+                        <button onclick="increaseButton()" class="click">like</button>
+                    </div>
+                    <div class="filler-text">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="like-box">
+                        <div class="userName">Jim R</div>
+                        <p ><span id="up">9</span> like(s)</p>
+                        <button onclick="changeNum()" class="click">like</button>
+                    </div>
+                    <div class="filler-text">
+                        <p>I can't stop listening to the <a href="#">new album</a> .
+                            Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
